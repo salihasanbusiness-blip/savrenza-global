@@ -1,0 +1,9 @@
+SAVRENZA ENERGY V6.0 quality release
+Deploy to the TEST Cloudflare Pages project first.
+This build preserves existing visual design, local SVG country flags, language picker, phone flags, and currencies.
+Translation coverage remains partial outside Bulgarian; do not advertise fully translated 10 languages.
+Currency selection changes displayed units, not FX conversion.
+The enquiry form opens an email application; it is NOT a server-side submission.
+Live AI requires backend configuration and appropriate security controls.
+Search rankings are never guaranteed. Check all interactions on iPhone, desktop Chrome, and Safari before production.
+The privacy/cookie preference UI does not enable analytics or advertising cookies.

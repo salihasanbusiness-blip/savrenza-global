@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://energy.savrenzaplatform.com/sitemap.xml

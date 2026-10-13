@@ -1,0 +1,1 @@
+V9.0 premium refresh built on V8.5. Updated hero, modern visual showcase, new palette and mobile layout. Original brand mark and existing language/flag/currency functionality retained. Translation coverage remains partial. Test as Preview before Production.

@@ -1,0 +1,1 @@
+V8.3: removed conflicting language toggle mutations, ensured one locale flag, synchronized localized language label, kept the 10 language options and country/phone flag assets. IMPORTANT: translations are still incomplete; no backend enquiry/AI service has been configured. Manual browser QA required.

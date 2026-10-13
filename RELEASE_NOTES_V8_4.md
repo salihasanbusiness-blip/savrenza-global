@@ -1,0 +1,1 @@
+V8.4: Removed overlapping translation/flag scripts and consolidated locale UI in unified-v84.js. Added locale dictionary mapping for content and placeholders, one flag in language button, retained country and phone state in app.js. Translation dictionaries are not complete for all languages; missing phrases fall back to English. Backend email and AI are not connected.

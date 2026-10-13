@@ -1,0 +1,1 @@
+V8.2: removed two competing flag renderers; removed competing Asia text controller; one language flag; added many German strings; extended country dial code coverage. Full translation is not yet complete. Phone dial prefixes for territories can require region-specific formats. Test in Cloudflare Pages staging before production.

@@ -1,0 +1,1 @@
+V17: Mobile controls for language/currency remain visible, artwork capped, mobile floating Shadow DOM chat launcher hidden while in-page AI links and panel remain available. Desktop assets preserved. Upload ZIP as Cloudflare Pages Production deployment. Verify on real phone after refreshing.

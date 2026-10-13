@@ -1,0 +1,1 @@
+V8.5: Lime SAVRENZA mark favicon matching site header; removed competing text translation pass from unified script; kept single flag image on language toggle. Translation coverage is still partial. Test on Cloudflare staging.
