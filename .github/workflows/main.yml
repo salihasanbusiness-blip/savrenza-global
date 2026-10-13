@@ -1,0 +1,30 @@
+name: SAVRENZA ENERGY - Daily Checks
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  website-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check website availability
+        run: |
+          curl --fail --location --silent --show-error \
+            --retry 3 \
+            --max-time 30 \
+            https://energy.savrenzaplatform.com/ \
+            --output /dev/null
+
+      - name: Check HTTPS certificate
+        run: |
+          echo | openssl s_client \
+            -connect energy.savrenzaplatform.com:443 \
+            -servername energy.savrenzaplatform.com \
+            2>/dev/null | openssl x509 -noout -checkend 604800
