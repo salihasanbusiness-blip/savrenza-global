@@ -1,0 +1,29 @@
+/* V26 final responsive and accessibility compatibility layer */
+@media(max-width:900px){
+ html{overflow-x:hidden;-webkit-text-size-adjust:100%}body{width:100%;overflow-x:clip}
+ *,*::before,*::after{box-sizing:border-box}
+ .container{width:min(100% - 32px,1200px)!important;max-width:100%!important;margin-inline:auto}
+ .site-header .nav{min-width:0;gap:10px}
+ .brand{min-width:0;flex-shrink:1}.brandtext{min-width:0}
+ .nav-cta{white-space:nowrap}.menu-toggle{flex:0 0 auto}
+ .hero-grid,.hero-content,.energy-visual,.network-heading,.network-cards,.solution-grid,.case-layout,.intro-row,.future-grid{min-width:0;max-width:100%}
+ .hero h1{overflow-wrap:normal;letter-spacing:-.045em;max-width:100%;font-size:clamp(2.5rem,10vw,5rem);line-height:1.07}
+ .lead,.hero p{overflow-wrap:break-word}
+ .hero-buttons{min-width:0}.hero-buttons .button{max-width:100%;min-width:0;white-space:normal}
+ .energy-visual{overflow:hidden}.energy-visual svg{max-width:100%;height:auto}
+ .navlinks.open{overflow-y:auto;overscroll-behavior:contain}
+ .sav-chat-launch{display:none!important}
+ img,video,iframe,canvas{max-width:100%}
+}
+@media(max-width:480px){
+ .container{width:calc(100% - 28px)!important}
+ .site-header .nav{gap:8px}
+ .brandtext{font-size:clamp(.74rem,3.2vw,1.1rem)}
+ .nav-cta{padding-inline:10px!important;font-size:.82rem!important}
+ .hero h1{font-size:clamp(2.35rem,10.3vw,3.5rem)}
+ .hero-buttons{display:grid;grid-template-columns:minmax(0,1fr)}
+ .hero-buttons .button{width:100%;justify-content:space-between}
+ #savMobileControlsV16{max-width:100%;min-width:0}
+ #savMobileControlsV16 select{min-width:0;max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}

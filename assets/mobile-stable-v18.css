@@ -1,0 +1,15 @@
+/* V18: mobile-only, preserve all desktop functionality */
+@media (max-width:700px){
+ html,body{width:100%;max-width:100%;overflow-x:clip!important}
+ .site-header{position:sticky!important;top:0!important;z-index:1000!important}
+ #savMobileControlsV16.sav-mobile-controls-v16{display:grid!important;visibility:visible!important;opacity:1!important;position:sticky!important;top:var(--sav-header-height,72px)!important;z-index:990!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;padding:10px 12px!important;background:#0b2632!important;border-bottom:1px solid #64877a!important}
+ #savMobileControlsV16 label{display:flex!important;flex-direction:column!important;gap:4px!important;color:white!important;min-width:0!important}
+ #savMobileControlsV16 select{display:block!important;appearance:auto!important;width:100%!important;min-width:0!important;max-width:100%!important;min-height:44px!important;color:#fff!important;background:#163b44!important;border:1px solid #a6ef7b!important;border-radius:8px!important;font-size:14px!important}
+ .hero-grid,.vision-grid,.vision-banner-layout{grid-template-columns:minmax(0,1fr)!important}
+ .vision-banner-art,.vision-photo,.sav-vision-panel,.sav-showcase{max-height:260px!important;min-height:0!important;height:auto!important;overflow:hidden!important}
+ .vision-photo{height:220px!important}
+ .vision-banner-art img,.vision-photo img,.sav-vision-panel img{max-height:260px!important;width:100%!important;object-fit:cover!important}
+ .sav-chat-launch,.sav-chat:not(:has(.sav-chat-panel:not([hidden]))){display:none!important}
+ .calc-card,.contact-card,.energy-visual{max-width:100%!important;min-width:0!important}
+ #savrenza-chat-host{max-width:100vw!important}
+}

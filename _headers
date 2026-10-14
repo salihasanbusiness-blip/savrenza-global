@@ -6,7 +6,13 @@
   Content-Security-Policy: default-src 'self'; script-src 'self' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://challenges.cloudflare.com; font-src 'self'; form-action 'self' mailto:; frame-src https://challenges.cloudflare.com; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests
 
 /assets/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /
-  Cache-Control: no-cache, must-revalidate
+  Cache-Control: no-store, max-age=0, must-revalidate
+
+/*.html
+  Cache-Control: no-store, max-age=0, must-revalidate
+
+/version.json
+  Cache-Control: no-store, max-age=0, must-revalidate

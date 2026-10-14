@@ -1,0 +1,6 @@
+SAVRENZA ENERGY V25 — MOBILE AND CACHE STABILITY
+- Нов финален мобилен CSS слой, без промени по десктоп дизайна.
+- Скрива плаващия AI launcher на телефон, без да премахва връзките към AI от секциите.
+- Cache-busting параметри за всички JS/CSS/изображения, зареждани чрез index.html.
+- HTML: no-store; assets: по-кратък кеш с revalidation.
+Важно: различен изглед на два телефона може да е стар deployment или кеш. Тази корекция се прилага едва след качване на новия ZIP в правилния Cloudflare Pages проект.
