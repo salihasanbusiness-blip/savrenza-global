@@ -1,0 +1,8 @@
+/* V27: visual safeguard. The published site should display the HTML hero heading, never an old full-screen image. */
+@media (max-width:900px) {
+ html,body{max-width:100%;overflow-x:clip}
+ .hero,.hero-grid,.hero-content{min-width:0;max-width:100%}
+ .hero h1{overflow-wrap:break-word}
+ .sav-chat-launch{display:none!important}
+ .hero img,.hero picture,.hero video{max-width:100%;height:auto;object-fit:contain}
+}

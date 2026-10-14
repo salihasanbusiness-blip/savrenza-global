@@ -1,0 +1,16 @@
+/* V16: full desktop features, adapted to phone. Desktop rules untouched. */
+.sav-mobile-controls-v16{display:none}
+@media(max-width:700px){
+ .sav-mobile-controls-v16{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;position:relative;z-index:210;padding:12px;background:#0b2632;border-bottom:1px solid #567f72}
+ .sav-mobile-controls-v16 label{display:flex;flex-direction:column;gap:6px;min-width:0;color:#e6f9ed;font:600 12px/1.3 system-ui,sans-serif}
+ .sav-mobile-controls-v16 select{display:block!important;width:100%;min-width:0;max-width:100%;height:46px;border:1px solid #93c88c;border-radius:10px;padding:0 9px;color:#f4fff4;background:#143b42;font:600 14px system-ui,sans-serif}
+ .site-header{position:relative!important;top:auto!important}
+ .vision-photo{min-height:0!important;height:clamp(185px,52vw,300px)!important;max-height:300px!important}
+ .vision-photo img{object-fit:cover!important;object-position:center!important}
+ .vision-banner-art,.sav-showcase{min-height:0!important;height:auto!important;max-height:300px!important;overflow:auto!important}
+ .vision-banner-layout,.vision-grid,.hero-grid{min-width:0!important}
+ .vision-banner-art img,.vision-photo img,.hero img{max-width:100%!important}
+ .vision-banner{padding-block:28px!important}
+ .sav-chat-launch{display:none!important}
+ html,body{max-width:100%;overflow-x:clip}
+}

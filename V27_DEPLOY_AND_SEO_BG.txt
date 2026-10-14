@@ -1,0 +1,11 @@
+SAVRENZA ENERGY V27 — инструкции
+
+1. Cloudflare > Workers & Pages > съществуващият проект за energy.savrenzaplatform.com > Deployments > Create deployment > Production.
+2. Качи ZIP файла. Не създавай нов проект.
+3. Отвори https://energy.savrenzaplatform.com/version.json и провери, че release е V27-20261013. Ако не е, домейнът не показва тази версия.
+4. После отвори началната страница в нов частен прозорец на iPhone. Очакваното заглавие е Energy decisions. Made smarter.
+5. За търсачките: Google Search Console > Add property > потвърждение чрез DNS, после Sitemaps > https://energy.savrenzaplatform.com/sitemap.xml; URL Inspection > Request indexing за началната страница. Аналогично Bing Webmaster Tools.
+6. Добави ясни официални линкове между savrenzaplatform.com и energy.savrenzaplatform.com, както и от фирмените социални профили.
+7. Няма гаранция за №1 — това зависи от Google, конкуренцията, сигнали за доверие и индексирането.
+
+V27 включва SEO метаданни, JSON-LD, sitemap дата, мобилна защита и version.json за доказване на деплой.

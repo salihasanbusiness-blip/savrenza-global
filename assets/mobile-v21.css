@@ -1,0 +1,15 @@
+/* SAVRENZA V21: mobile-only refinements; no desktop changes. */
+@media (max-width:700px){
+ .hero{padding-top:18px!important;padding-bottom:28px!important}
+ .hero-grid{gap:20px!important}
+ .hero-content{min-width:0!important}
+ .hero-buttons{display:flex;flex-wrap:wrap;gap:10px!important}
+ .hero-buttons .button{min-width:0!important;max-width:100%!important;white-space:normal!important}
+ .vision-banner-art{height:auto!important;max-height:none!important;min-height:0!important;overflow:visible!important}
+ .vision-banner-art picture{max-height:350px!important;overflow:hidden!important}
+ .vision-banner-art picture img{width:100%!important;max-height:350px!important;height:auto!important;object-fit:cover!important;object-position:center 26%!important}
+ .vision-photo,.hero-art,.hero-media,.hero-visual{max-height:360px!important;overflow:hidden!important}
+ .vision-banner-text,.vision-banner-layout,.vision-grid{min-width:0!important}
+ .site-header{z-index:1000!important}
+ body{overflow-x:clip!important}
+}

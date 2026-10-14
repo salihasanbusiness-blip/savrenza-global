@@ -1,0 +1,7 @@
+SAVRENZA ENERGY V28 — Cloudflare Pages
+1. Workers & Pages > savrenza-energy-ai-test > Create deployment > Production.
+2. Качи този ZIP архив, без да добавяш външна папка.
+3. Провери https://energy.savrenzaplatform.com/version.json — очаквай V28-20261013.
+4. Ако е 404, изпрати снимка от Assets uploaded, показваща version.json.
+5. Провери началната страница на телефон.
+ВАЖНО: Самото създаване на този архив НЕ публикува сайта.

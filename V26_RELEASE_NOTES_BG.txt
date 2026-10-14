@@ -1,0 +1,3 @@
+SAVRENZA ENERGY V26 — 13.10.2026
+Мобилен responsive override; по-малко закриване от AI launcher; промяна на URL версиите за активите; запазени езици и десктоп.
+Не е публикувано автоматично. При Cloudflare Pages качете ZIP като нов deployment на съществуващия проект. Проверете в Safari/Chrome и езиковите менюта.
