@@ -18,10 +18,8 @@ The form validates in the browser and opens a prefilled email draft addressed to
 
 ## Future assistant boundary
 
-The site does not provide an AI assistant. Keep any future assistant as an isolated, opt-in feature with a same-origin server endpoint; secrets must remain in server-side Cloudflare bindings. Do not enable paid model calls, reuse an Energy-specific assistant prompt, or collect user data without explicit approval and a reviewed privacy/security design.
+The new homepage does not expose an AI assistant. The repository retains its legacy `/api/chat` worker endpoint; it is gated by server-side configuration and must not be enabled or represented as a SAVRENZA GROUP capability without explicit approval and a reviewed privacy/security design. Any future assistant should be isolated, opt-in and same-origin, with secrets kept in server-side Cloudflare bindings.
 
 ## Cloudflare Pages
 
-The existing Git-connected Pages project reports its name as `savrezna-energy-ai-test` (not `savrenza-energy-ai-test`) and uses `main` as its production branch. Pushing this feature branch is expected to create a branch preview only; do not merge it or change the production branch without explicit approval. The available preview URL may require Cloudflare Access authorization.
-
-This feature branch has not been pushed or deployed. Do not push it while deployment is on hold; pushing may trigger the Pages preview integration. The production branch and domains remain unchanged.
+The existing Git-connected Pages project reports its name as `savrezna-energy-ai-test` (not `savrenza-energy-ai-test`), uses `main` as its production branch, and is currently associated with `energy.savrenzaplatform.com` and `savrenzaplatform.com`. A push to this feature branch is intended to create a branch preview; a push to `main` can replace production. Verify the preview before promoting changes. Do not edit DNS or domain bindings as part of a site release. A preview may be protected by Cloudflare Access.
