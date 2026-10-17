@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://energy.savrenzaplatform.com/sitemap.xml
+Disallow: /api/
+Sitemap: https://savrenzaplatform.com/sitemap.xml

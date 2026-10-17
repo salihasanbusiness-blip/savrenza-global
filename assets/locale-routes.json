@@ -1,0 +1,25 @@
+{
+  "default": "en",
+  "locales": {
+    "en": {
+      "path": "/",
+      "direction": "ltr",
+      "status": "published"
+    },
+    "bg": {
+      "path": "/bg/",
+      "direction": "ltr",
+      "status": "planned"
+    },
+    "de": {
+      "path": "/de/",
+      "direction": "ltr",
+      "status": "planned"
+    },
+    "ar": {
+      "path": "/ar/",
+      "direction": "rtl",
+      "status": "planned"
+    }
+  }
+}

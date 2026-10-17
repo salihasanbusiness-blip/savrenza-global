@@ -1,12 +1,12 @@
 {
-  "name": "SAVRENZA ENERGY",
+  "name": "SAVRENZA GROUP",
   "short_name": "SAVRENZA",
-  "description": "Development-stage energy collaboration initiative",
+  "description": "SAVRENZA GROUP — Built to Last",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#07110e",
-  "theme_color": "#07110e",
+  "background_color": "#090a0a",
+  "theme_color": "#090a0a",
   "icons": [
     {
       "src": "/assets/favicon.svg",

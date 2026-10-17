@@ -1,6 +1,6 @@
 {
-  "version": "V30-20261013",
-  "design": "logo-only",
+  "version": "V4.0.0",
+  "design": "savrenza-group-ultra-premium",
   "photos": false,
-  "brand_logo": "assets/savrenza-energy-logo.png"
+  "brand_logo": "assets/favicon.svg"
 }
