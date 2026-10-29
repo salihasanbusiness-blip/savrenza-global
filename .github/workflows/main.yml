@@ -1,4 +1,4 @@
-name: SAVRENZA ENERGY - Daily Checks
+name: SAVRENZA - Daily Checks
 
 on:
   workflow_dispatch:
@@ -19,12 +19,12 @@ jobs:
           curl --fail --location --silent --show-error \
             --retry 3 \
             --max-time 30 \
-            https://energy.savrenzaplatform.com/ \
+            https://savrenzaplatform.com/ \
             --output /dev/null
 
       - name: Check HTTPS certificate
         run: |
           echo | openssl s_client \
-            -connect energy.savrenzaplatform.com:443 \
-            -servername energy.savrenzaplatform.com \
+            -connect savrenzaplatform.com:443 \
+            -servername savrenzaplatform.com \
             2>/dev/null | openssl x509 -noout -checkend 604800
