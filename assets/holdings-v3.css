@@ -3,8 +3,9 @@
 
 /* Mobile menu covers the page instead of slicing the hero */
 @media(max-width:760px){
-  .js .navlinks.open{position:fixed;top:76px;right:0;bottom:0;left:0;z-index:30;display:flex;flex-direction:column;gap:0;padding:8px 6% 40px;background:#101c1a;overflow:auto}
-  .js .navlinks.open a{padding:18px 0;border-bottom:1px solid var(--line);font-size:18px;letter-spacing:.16em}
+  header{backdrop-filter:none;-webkit-backdrop-filter:none}
+  .js .navlinks.open{position:fixed;top:76px;right:0;bottom:0;left:0;width:100%;height:auto;z-index:40;display:flex;flex-direction:column;align-items:stretch;gap:0;padding:12px 24px 48px;background:#101c1a;overflow:auto}
+  .js .navlinks.open a{display:block;padding:18px 0;border-bottom:1px solid var(--line);font-size:18px;letter-spacing:.16em}
   .hero-bottom{flex-direction:column;align-items:flex-start;gap:12px;letter-spacing:.14em}
   .hero-bottom span{max-width:none}
 }
